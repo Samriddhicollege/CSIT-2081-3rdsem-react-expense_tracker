@@ -1,0 +1,48 @@
+.expense-list-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.el-header { display: flex; align-items: center; justify-content: space-between; }
+.el-title  { font-family: var(--font-head); font-size: 1.35rem; }
+.el-count  {
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--surface2); border-radius: 99px;
+  padding: 0 10px; font-family: var(--font-body);
+  font-size: 0.78rem; color: var(--muted); margin-left: 8px;
+}
+
+.el-controls { display: flex; gap: 10px; flex-wrap: wrap; }
+.el-search {
+  flex: 1; min-width: 160px;
+  padding: 9px 14px;
+  background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 9px; color: var(--text);
+  font-family: var(--font-body); font-size: 0.875rem;
+  outline: none; transition: border-color var(--tr);
+}
+.el-search:focus { border-color: var(--accent); }
+.el-select {
+  padding: 9px 12px;
+  background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 9px; color: var(--text);
+  font-family: var(--font-body); font-size: 0.8rem;
+  outline: none; cursor: pointer;
+}
+
+.el-list { display: flex; flex-direction: column; gap: 8px; }
+
+.el-empty {
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  padding: 48px 0; gap: 6px; text-align: center;
+}
+.el-empty-icon { font-size: 2.5rem; opacity: .7; }
+.el-empty p    { color: var(--muted); font-size: 0.95rem; }
+.el-empty-sub  { font-size: 0.82rem; }

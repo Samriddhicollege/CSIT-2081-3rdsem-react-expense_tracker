@@ -1,0 +1,37 @@
+/* ─── Design Tokens ─────────────────────────────── */
+:root {
+  --bg:        #0d0f14;
+  --surface:   #161b24;
+  --surface2:  #1e2535;
+  --border:    rgba(255,255,255,0.07);
+  --accent:    #e8c97d;
+  --accent2:   #5eb8a3;
+  --danger:    #e86060;
+  --text:      #f0ede6;
+  --muted:     #8490a8;
+  --font-head: 'DM Serif Display', serif;
+  --font-body: 'DM Sans', sans-serif;
+  --radius:    14px;
+  --shadow:    0 8px 32px rgba(0,0,0,0.45);
+  --tr:        0.2s ease;
+}
+
+/* ─── Reset ─────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Scrollbar ──────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--surface2); border-radius: 99px; }
+
+/* ─── Utility ────────────────────────────────────── */
+.visually-hidden { position: absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); }

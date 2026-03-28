@@ -1,0 +1,16 @@
+.expenses-page {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.ep-form-col { position: sticky; top: 84px; }
+.ep-list-col { min-width: 0; }
+
+@media (max-width: 820px) {
+  .expenses-page {
+    grid-template-columns: 1fr;
+  }
+  .ep-form-col { position: static; }
+}
