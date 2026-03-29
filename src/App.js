@@ -6,10 +6,6 @@ import AnalyticsPage from './pages/AnalyticsPage';
 import useExpenses from './hooks/useExpenses';
 import './App.css';
 
-/**
- * App – root component
- * Architecture: App -> Header + Pages -> Components
- */
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
 
@@ -23,7 +19,6 @@ function App() {
   if (!loaded) {
     return (
       <div className="app-loading">
-        
         <p>Loading SpendWise…</p>
       </div>
     );

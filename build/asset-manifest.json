@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CSIT-2081-3rdsem-react-expense_tracker/static/css/main.b34650dc.css",
+    "main.js": "/CSIT-2081-3rdsem-react-expense_tracker/static/js/main.bfb6e4ff.js",
+    "index.html": "/CSIT-2081-3rdsem-react-expense_tracker/index.html",
+    "main.b34650dc.css.map": "/CSIT-2081-3rdsem-react-expense_tracker/static/css/main.b34650dc.css.map",
+    "main.bfb6e4ff.js.map": "/CSIT-2081-3rdsem-react-expense_tracker/static/js/main.bfb6e4ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b34650dc.css",
+    "static/js/main.bfb6e4ff.js"
+  ]
+}
